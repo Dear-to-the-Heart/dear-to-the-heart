@@ -2,18 +2,16 @@
 #
 
 # Site settings
-title: OpenAAC
+title: Dear to the Heart
 description: Making AAC as free as possible through social awareness, global supports, and open standards
-owner: OpenAAC # or company name
-first_published: 2019 # if migrating another site, the year of your first publish
-email: info@coughdrop.com
+owner: Dear to the Heart # or company name
+first_published: 2026 # if migrating another site, the year of your first publish
+email: dear@openaac.org
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.openaac.org" # the base hostname & protocol for your site
+url: "https://www.deartotheheart.org" # the base hostname & protocol for your site
 social:
-  github: https://github.com/open-aac
-  slack: https://join.slack.com/t/openaac/shared_invite/enQtNTQwNDgwODYyNjU5LTAwODNmZjM4ZmJmOTJkYTY2MWZkNjc0MDQ0NTcwMTRmMzY0MWI3OWJiNGYwZGIzMzc2YTk2N2FiY2JlYTI5Njc
-  twitter: https://www.twitter.com/Open_AAC
-  facebook: https://www.facebook.com/profile.php?id=61555874252282
+  instagram: https://www.instagram.com/dear.to.the.heart
+  facebook: https://www.facebook.com/profile.php?id=61585111330491
 
 # Build settings
 markdown: kramdown

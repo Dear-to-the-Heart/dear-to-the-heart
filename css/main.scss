@@ -1962,7 +1962,7 @@ $baseurl: '{{ site.baseurl }}/images';
     z-index: -1;
     animation: imageFade 30s linear infinite 10s;
     &#back1 {
-      background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("/images/scot.jpg"); 
+      background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("/images/bec-parents.jpg"); 
       animation-delay: 30s;
       opacity: 1;
       
@@ -1973,7 +1973,7 @@ $baseurl: '{{ site.baseurl }}/images';
       opacity: 1;
     }
     &#back3 {
-      background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("/images/ellie_sit.jpg"); 
+      background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("/images/bec-fam.jpg"); 
       opacity: 1;
     }
   }
@@ -1982,18 +1982,18 @@ $baseurl: '{{ site.baseurl }}/images';
       background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("/images/becca_smile.jpg"); 
     }
     .backpic#back2 {
-      background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("/images/ellie_sit.jpg"); 
+      background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("/images/bec-fam.jpg"); 
     }
     .backpic#back3 {
-      background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("/images/scot.jpg"); 
+      background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("/images/bec-parents.jpg"); 
     }
   }
   .landing_2 {
     .backpic#back1 {
-      background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("/images/ellie_sit.jpg"); 
+      background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("/images/bec-fam.jpg"); 
     }
     .backpic#back2 {
-      background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("/images/scot.jpg"); 
+      background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("/images/bec-parents.jpg"); 
     }
     .backpic#back3 {
       background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("/images/becca_smile.jpg"); 

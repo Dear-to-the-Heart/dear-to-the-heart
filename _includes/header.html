@@ -1,13 +1,15 @@
 <!-- Header -->
 <header id="header"{% if page.layout == 'landing' %} class="alt"{% endif %}>
   <h1><a href="{{ site.baseurl }}/index.html">
-    <img src="/openaac.svg" style='border-radius: 5px; height: 80px; float: left;'>
+    <img src="/dear-heart.400.png" style='border-radius: 5px; height: 70px; float: left; margin-right: 10px;  margin-top: 3px; border: 2px solid rgba(255, 255, 255, 0.7); border-radius: 50px;'>
     <span class='title'>{{ site.title }}</span></a>
   </h1>
   <nav id="nav">
+    <div style='display: none;'>
     <a href="/participate.html"><span>How to Help</span></a> <span style='color: rgba(255, 255, 255, 0.5);'>|</span>
     <a href="/docs.html"><span>Docs</span></a> <span style='color: rgba(255, 255, 255, 0.5);'>|</span>
     <a href="/contact.html"><span>Chat</span></a>
+    </div>
     <ul style='display: inline;'>
       <li class="special">
         <a href="#menu" class="menuToggle"><span>Menu</span></a>
@@ -19,12 +21,6 @@
             <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
             {% endif %}
             {% endfor %}
-
-            <li style='padding-top: 50px; font-style: italic;'><a target='_blank' href="https://www.opensymbols.org/">OpenSymbols</a></li>
-            <li style='font-style: italic;'><a target='_blank' href="https://www.openboardformat.org/">Open Board Format</a></li>
-            <li style='font-style: italic;'><a target='_blank' href="https://www.coreworkshop.org/">Communication Workshop</a></li>
-            <li style='font-style: italic;'><a target='_blank' href="/developers.html">Developers</a></li>
-
           </ul>
         </div>
       </li>

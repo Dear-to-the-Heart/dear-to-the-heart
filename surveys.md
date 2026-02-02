@@ -1,51 +1,20 @@
 ---
 layout: page
-title: Research and Surveys
-page_title: Research and Surveys
-description: The more participants we can recruit, the more useful our data will be!
+title: Surveys
+page_title: Surveys
+description: Looking for patterns<br/>we can learn from
 include_nav: true
 ---
-<style>
-  a.survey {
-    display: block;
-  }
-  a.survey img {
-    width: 40px; 
-    padding-right: 5px; 
-    margin: -10px 5px -10px -30px; 
-    background: #fff;
-  }
-</style>
-## Research and Surveys
+<h2>Surveys</h2>
 
-At OpenAAC we regularly run surveys to collect data across
-the industry. The more participation we have, the more
-accurate and useful our results will be! Please consider
-filling out any of the current surveys we have running that
-apply to you. You may also share these surveys online or
-with your social circles!
-
-We believe that information is important and valuable for
-everyone, so we always make public the results of any
-surveys or research we conduct. You can review any of the
-results of current or past survyes using the provided links.
-
-### Current Surveys
-- <a class='survey' href="https://docs.google.com/forms/d/e/1FAIpQLSfReu2IXXUuMoJAv-krJEhFfiH9pVaONiK8bOU3MfYBd9RN4w/viewform?usp=sf_link"><b><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f5e3.svg'/>Communication Partner Profile</b></a> 
-For practitioners, families and users. We are looking for feedback on a 
-self-reflection tool that beginning or experienced communication partners
-(people who interact with or support AAC users) can fill out to help 
-discover areas where they could improve in their efforts.
-(Survey Results Pending)
-
-- <a class='survey' href="https://forms.gle/1WZTtHAKJDnGcb4A9"><b><img src='https://app.covidspeak.org/icons/clipboard-data.svg'/>AAC Vocabulary Selection</b></a> For all AAC practitioners, families, and users. We are collecting responses on the criteria
-and perspectives of those who are selecting from among the
-large pool of possible AAC vocabularies. (Survey Results Pending)
-
-- <a class='survey' href="https://forms.gle/FBuikSWn9vet4PFp6"><b><img src='https://app.covidspeak.org/icons/card-image.svg'/>Open Symbols Questionnaire</b></a> For all AAC practitioners, families, and users. We are looking for feedback on current expectations around
-AAC symbol libraries, as well as recruiting participants
-in ongoing AAC symbol research and implementation work. ([Survey Results](https://docs.google.com/spreadsheets/d/17SkpQl8x0jrmW_awq13pyWptG0UtQqdf2yEUvtBau9c/edit?usp=sharing))
-
-### Past Survey Results
-
-- <a class='survey' href="https://docs.google.com/spreadsheets/d/1VU_PXdl4zmEAmgFKp5O5GdlA0c8NOekoCCogOtO42W4/edit?usp=sharing"><b><img src='https://app.covidspeak.org/icons/calendar.svg'/>Core Word Strategies</b></a> We surveyed active teachers and practitioners who are implementing "Core Word of the Week/Month" strategies to better understand their usage and look for patterns ([Survey Results](https://docs.google.com/spreadsheets/d/1VU_PXdl4zmEAmgFKp5O5GdlA0c8NOekoCCogOtO42W4/edit?usp=sharing))
+<p>
+  The following survey is for individuals with a disability or their family members.
+  Our goal is to help make church attendance one of the most inclusive experiences
+  available for people with disabilities. To help make that happen we are hoping to 
+  learn what things are like right now. Too often successes aren't able to be
+  repeated and mistakes aren't learned from. We hope to change that!
+</p>
+<p>If you know anyone from church who could participate in the survey, with any degree of disability in their family, please share this link!
+<div style='margin: 0 auto; width: 500px;'>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUyKS6ozMkMW8Y1JjK5xiaZtCUItXOrE1qYJNmK-MIgY6GnA/viewform?usp=dialog" class="button fit special">Disability Supports in the Church</a>
+</div>
