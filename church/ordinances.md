@@ -41,6 +41,10 @@ include_nav: true
   jumpsuits are not necessary, just convenient. Only two witnesses are
   required, and a whole program is not necessary if that won't work for your child.
 </p>
+<p>If baptism is not appropriate for your child, it is still worth talking
+  with the Primary presidency about ways your child can be included, especially
+  during the year they turn 8. The other children their age will benefit from 
+<p>
 <p>I have heard mention of something called "baptism by proxy for the living"
   where, with First Presidency approval, someone can act as a proxy for a person
   who would not be able to be baptized for themself. This is not in the handbook
