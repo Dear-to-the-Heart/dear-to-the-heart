@@ -1,10 +1,34 @@
 ---
 layout: page
-title: Ordinances
-page_title: Ordinances
-description: Support and suggestions around ordinance discussions
+title: Callings & Ordinances
+page_title: Callings & Ordinances
+description: Support and suggestions around church discussions
 include_nav: true
 ---
+
+<h2>Callings for People with Disabilities</h2>
+<p>There are no limitations in the church on what callings someone can
+  hold based on their physical or intellectual disabilities. However,
+  sometimes if church leaders do not properly understand someone's
+  capabilities, they may fail to consider them for the range of possible
+  callings in which they could serve.
+</p>
+
+<p>It can be helpful to be aware of callings that can both meet 
+  people with disabilities where they are at, and also examples
+  that some people might have assumed wouldn't be possible.
+</p>
+
+<p>Becca has served as a class presidency counselor, and most recently
+  as a Young Women's class president over a group
+  of 12-15 girls. She has served as an assistant music director in 
+  Primary and directed the kids.
+</p>
+
+<p>People with disabilities can serve in many callings, even leadership
+positions -- especially when we help them understand the necessity of
+delegation in church leadership callings.
+</p>
 
 <h2>Ordinances for People with Disabilities </h2>
 
@@ -22,7 +46,7 @@ include_nav: true
 </p>
 
 <h3>Strategies for Preparation</h3>
-<p>The primary prerequisite for baptism is a desire to follow Christ. If your
+<p>The main prerequisite for baptism is a desire to follow Christ. If your
   child has independently expressed a desire to be baptized, then there 
   is probably a way to make it happen.
 </p>
@@ -44,6 +68,7 @@ include_nav: true
 <p>If baptism is not appropriate for your child, it is still worth talking
   with the Primary presidency about ways your child can be included, especially
   during the year they turn 8. The other children their age will benefit from 
+  seeing them be recognized and included, even if it's not by baptism.
 <p>
 <p>I have heard mention of something called "baptism by proxy for the living"
   where, with First Presidency approval, someone can act as a proxy for a person

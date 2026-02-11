@@ -52,6 +52,28 @@ layout: landing
 					</div>
 				</section>
 
+								<!-- Two -->
+				<section id="two" class="wrapper style2 special">
+					<div class="inner">
+						<header class="major">
+							<h2>Becca's Service Mission is Coming!</h2>
+							<section class="spotlight with_video" style='text-align: left; background: transparent;'>
+								<div class='image'>
+									<img src="/images/slcstemple.jpg" style="width: 100%; border: 1px solid rgba(255, 255, 255, 0.25); padding: 10px;" />
+								</div>
+								<div class='content'>
+									<h3><a href="https://www.instagram.com/p/DUnMDIRjLYX/"><span id='countdown'>Soon!</span></a></h3>
+									<p>"I'm grateful for everyone who has helped me prepare for my 
+										mission. I've been hoping I could do this for years. I'm 
+										grateful that they'll let me serve. I know God lives and I'm 
+										excited to share that with others. I know Jesus is my Savior 
+										and He loves all of us. I know we can find joy in Christ!"</p>
+								</div>
+							</section>
+						</header>
+					</div>
+				</section>
+
 				<!-- Three -->
 				<a name='awareness'></a>
 				<section id="threea" class="wrapper special style3">
@@ -121,8 +143,8 @@ layout: landing
 							</li>
 							<li class="icon fa-hand-paper-o">
 								<a href="/church/ordinances.html"><img src='/images/baptism.png' class='example'/></a>
-								<h3><a href="/church/ordinances.html">Ordinances</a></h3>
-								<p>Church ordinances can be tricky to navigate when someone's
+								<h3><a href="/church/ordinances.html">Callings & Ordinances</a></h3>
+								<p>Church callings ordinances can be tricky to navigate when someone's
 									independence is in question. We share a bit about Becca's experiences
 									and ideas for how to proceed in your own ward.
 								</p>
@@ -151,3 +173,14 @@ layout: landing
 							</ul>
 						</div>
 					</section>
+
+<script>
+	var now = new Date();
+	var then = new Date(Date.parse("2026-03-16"));
+	var days = Math.floor((then - now) / 1000 / 60 / 60 / 24);
+	if(days > 0) {
+		document.getElementById('countdown').innerText = (days + " Days Until She Starts!")
+	} else {
+		document.getElementById('countdown').innerText = ((-1 * days) + " Days Serving So Far!")
+	}
+</script>
