@@ -4,6 +4,12 @@
 html {
   scrollbar-color: #888 rgba(255, 255, 255, 0.8);
 }
+.instabox {
+  width: 400px; 
+  height: 600px; 
+  border: 1px solid #ccc;
+  display: inline-block;
+}
 .link_list {
   max-width: 400px;
   margin: 10px auto;

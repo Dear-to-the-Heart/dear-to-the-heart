@@ -6,6 +6,36 @@ description: Ideas and Strategies for an<br/>Inclusive Church Classroom
 include_nav: true
 ---
 
+<style>
+  #lessons {
+    margin-bottom: 80px;
+  }
+  #lessons iframe {
+    float: right;
+  }
+  #lessons > div {
+    margin-bottom: 20px;
+    font-weight: bold; 
+  }
+  #lessons a.icon {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 30px;
+    vertical-align: middle;
+  }
+  #lessons table tr:hover td {
+    background: #eee;
+  }
+  #lessons table tr td:first-of-type img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    object-position: center;
+  }
+  #lessons table tr td {
+    vertical-align: middle;
+  }
+</style>
 <h2>Inclusive Come Follow Me</h2>
 
 The Church encourages inclusion rather than separate
@@ -25,13 +55,54 @@ experience in their school and community. But let's not stop there!
   ideas that can help make sure your classroom is inclusive while
   still supporting *all* of your students.
 </p>
+<div id='lessons'>
+  <table style='display: inline-block; width: 600px;'>
+  </table>
+</div>
+<div style='clear: both;'></div>
+<script>
+  var elem = document.getElementById('lessons');
+  var preview = window.lessons[0];
+  if(preview) {
+    var iframe = document.createElement('iframe');
+    iframe.src = preview.insta + '/embed';
+    iframe.classList.add('instabox');
+    iframe.setAttribute('frameborder', '0');
+    elem.appendChild(iframe);
+  }
+  lessons.forEach(function(lesson) {
+    var div = document.createElement('tr');
+    var td = document.createElement('td');
+    var img = document.createElement('img');
+    img.src = lesson.img || "/dear-heart.400.png";
+    td.appendChild(img);
+    div.appendChild(td);
 
-<a href="https://docs.google.com/document/d/1P9YeGFI5NceVdDL0PP6jy6PVOCAM9r7lccm93RL4838/edit?usp=sharing">Feb 2 - 8 (Unity, Discipleship and Joy)</a>
+    td = document.createElement('td');
+    var a = document.createElement('a');
+    a.setAttribute('href', lesson.url);
+    a.innerText = lesson.title;
+    td.appendChild(a);
+    div.appendChild(td);
 
-<a href="https://docs.google.com/document/d/1ul6AqtcCuCdHZxirscCvPeLQr7vfMoiztkUsX5nw1co/edit?usp=sharing">Jan 26 - Feb 1 (Agency, Inadequacy and Keeping Records)</a>
+    td = document.createElement('td');
+    if(lesson.insta) {
+      a = document.createElement('a');
+      a.classList.add('icon');
+      a.classList.add('fa-instagram');
+      a.setAttribute('href', lesson.insta);
+      td.appendChild(a);
+    }
+    div.appendChild(td);
+    elem.querySelector('table').appendChild(div);
+  });
+</script>
 
 <h3>Teaching Strategies</h3>
+
+<iframe src="https://www.instagram.com/reel/DNWj5UISScX/embed" frameborder=0 class='instabox'></iframe>
 
 <a href="https://docs.google.com/document/d/1RamoGX_pDv9aIlCqa2GZWyA_oYz7flJJX2RebxTrq5E/edit?usp=sharing">Disability Teaching in Church</a> is a structured approach to improving your classroom teaching in a way
 that will benefit all your students, including those with disabilities. It includes a research-based sequence of strategies you can try on your own schedule, links to
 video examples, and tools to help you track your efforts and progress.
+

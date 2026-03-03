@@ -7,6 +7,7 @@ include_nav: true
 ---
 
 <h2>Callings for People with Disabilities</h2>
+<img src="/images/baptism.png" style='width: 300px; float: right; border: 1px solid #ccc; border-radius: 5px; padding: 3px;' />
 <p>There are no limitations in the church on what callings someone can
   hold based on their physical or intellectual disabilities. However,
   sometimes if church leaders do not properly understand someone's
