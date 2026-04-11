@@ -32,6 +32,18 @@ include_nav: true
     object-fit: contain;
     object-position: center;
   }
+  #lessons table tr.small td {
+    font-size: 13px;
+    line-height: 18px;
+    padding: 5px;
+  }
+  #lessons table tr.small td:first-of-type {
+    text-align: center;
+  }
+  #lessons table tr.small td:first-of-type img {
+    width: 50px;
+    height: 50px;
+  }
   #lessons table tr td {
     vertical-align: middle;
   }
@@ -62,7 +74,7 @@ experience in their school and community. But let's not stop there!
 <div style='clear: both;'></div>
 <script>
   var elem = document.getElementById('lessons');
-  var preview = window.lessons[0];
+  var preview = (window.lessons || []).find(function(e) { return e .insta; });
   if(preview) {
     var iframe = document.createElement('iframe');
     iframe.src = preview.insta + '/embed';
@@ -70,6 +82,7 @@ experience in their school and community. But let's not stop there!
     iframe.setAttribute('frameborder', '0');
     elem.appendChild(iframe);
   }
+  var cnt = 0;
   lessons.forEach(function(lesson) {
     var div = document.createElement('tr');
     var td = document.createElement('td');
@@ -94,7 +107,11 @@ experience in their school and community. But let's not stop there!
       td.appendChild(a);
     }
     div.appendChild(td);
+    if(cnt > 5) {
+      div.classList.add('small');
+    }
     elem.querySelector('table').appendChild(div);
+    cnt++;
   });
 </script>
 

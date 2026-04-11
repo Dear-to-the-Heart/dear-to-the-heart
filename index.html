@@ -62,10 +62,10 @@ layout: landing
 				<section id="two" class="wrapper style2 special">
 					<div class="inner">
 						<header class="major">
-							<h2>Becca's Service Mission is Coming!</h2>
+							<h2>Becca's Service Mission is Here!</h2>
 							<section class="spotlight with_video" style='text-align: left; background: transparent;'>
-								<div class='image'>
-									<img src="/images/slcstemple.jpg" style="width: 100%; border: 1px solid rgba(255, 255, 255, 0.25); padding: 10px;" />
+								<div class='image' style='width: 300px;'>
+									<img src="/images/mission-photo.jpg" style="width: 100%; border: 1px solid rgba(255, 255, 255, 0.25); padding: 10px;" />
 								</div>
 								<div class='content'>
 									<h3><a href="https://www.instagram.com/p/DUnMDIRjLYX/"><span id='countdown'>Soon!</span></a></h3>
@@ -79,6 +79,9 @@ layout: landing
 							<div style='clear: both;'></div>
 							<section class="spotlight with_video" style='margin-top: 30px; background: transparent;'>
 								<h3>Latest Come Follow Me Lesson</h3>
+								<div style='width: 450px; margin-left: auto; margin-right: auto; text-align: right; margin-top: -50px; margin-bottom: 20px; position: relative;'>
+									<a href="/church/lessons.html">see all lessons</a>
+								</div>
 								<div id='latest_lesson'>
 
 								</div>
@@ -197,9 +200,8 @@ layout: landing
 		document.getElementById('countdown').innerText = ((-1 * days) + " Days Serving So Far!")
 	}
 	var elem = document.querySelector('#latest_lesson');
-	if(window.lessons && window.lessons[0]) {
-		var lesson = window.lessons[0];
-
+	var lesson = (window.lessons || []).find(function(e) { return e.insta; });
+	if(lesson) {
 		var a = document.createElement('a');
 		a.innerText = lesson.title;
 		a.setAttribute('href', lesson.url);
