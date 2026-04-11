@@ -11,7 +11,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.deartotheheart.org" # the base hostname & protocol for your site
 social:
   instagram: https://www.instagram.com/dear.to.the.heart
-  facebook: https://www.facebook.com/profile.php?id=61585111330491
+  facebook: https://www.facebook.com/dear.to.the.heart
 
 # Build settings
 markdown: kramdown

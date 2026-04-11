@@ -100,9 +100,10 @@ experience in their school and community. But let's not stop there!
 
 <h3>Teaching Strategies</h3>
 
-<iframe src="https://www.instagram.com/reel/DNWj5UISScX/embed" frameborder=0 class='instabox'></iframe>
+<iframe src="https://www.instagram.com/reel/DNWj5UISScX/embed" frameborder=0 class='instabox' style='float: right; margin-left: 10px;'></iframe>
 
 <a href="https://docs.google.com/document/d/1RamoGX_pDv9aIlCqa2GZWyA_oYz7flJJX2RebxTrq5E/edit?usp=sharing">Disability Teaching in Church</a> is a structured approach to improving your classroom teaching in a way
 that will benefit all your students, including those with disabilities. It includes a research-based sequence of strategies you can try on your own schedule, links to
 video examples, and tools to help you track your efforts and progress.
 
+<div style='clear: both;'></div>
